@@ -3,9 +3,8 @@
 	height: 100vh;
 	background-image: url('images/alt.jpg');
 	background-repeat: no-repeat;
-
-
 }
+
 body{
 
 	font-family: arial, verdana, sans-serif;
@@ -22,9 +21,11 @@ body{
 	border-top: 2px solid #90b4d6;
 	border-left: 2px solid 	#749abe;
 }
+
 #deleteshop:hover{
 	color: #C8A68A;
 }
+
 #createshop{
 	background-color:  #231E25;
 	color: #C4CBD1;
@@ -41,16 +42,18 @@ h3{
 	color: #BD9A84;
 	font-size: 20px;
 }
-p{
+p {
 	color:#242C37;
 	font-size: 16px;
 	font-weight: bold;
 }
-a{
+
+a {
 	color: #C8A68A;
 	text-decoration: none;
 }
-a:hover{
+
+a:hover {
 	background-color: transparent;
 	color: #C8A68A;
 }
@@ -69,7 +72,7 @@ th, td{
 	border-right: 1px solid #cbd2d8;
 
 }
- th{
+ th {
 	color: #C4CBD1;
 	background-color: #231E25;
 	border-bottom: 2px solid #547ca0;
@@ -81,21 +84,21 @@ th, td{
 
 }
 
-td{
+td {
 	text-align: right;
 	text-shadow: 1px 1px 1px #ffffff;
 	background-color: #BBC0C3;
-
-
 }
-.lookpretty{
+
+.lookpretty {
 	overflow:auto;
 }
-#formstruct{
+
+#formstruct {
 	background-color: #BBC0C3;
 }
 
-.total{
+.total {
 	background-color: #BBC0C3;
 	color: #231F20;
 	text-shadow: none;
@@ -103,20 +106,21 @@ td{
 	border-bottom: 1px solid #cbd2d8;
 }
 
-td:hover{
+td:hover {
 	background-color: #A5BDC9;
 }
-tr:hover{
+
+tr:hover {
 	background-color: #A5BDC9;
 }
 
 
-.button:hover{
+.button:hover {
 	background-color: #1E2730;
 	color: #231F20;
-
 }
-fieldset{
+
+fieldset {
 	width: 350px;
 	margin-top: 20px;
 
@@ -127,7 +131,8 @@ fieldset{
 	border-top: 2px solid #90b4d6;
 	border-left: 2px solid 	#749abe;
 }
-legend{
+
+legend {
 	font-style: italic;
 	color: #C4CBD1;
 	background-color: #231E25;
@@ -136,11 +141,8 @@ legend{
 	padding: 5px 20px;
 
 }
-canvas{
 
-}
-
-footer{
+footer {
 	text-align: center;
 	color: #957F58;
 	background-color: #231E25;
