@@ -1,10 +1,120 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-  </head>
-  <body>
-      <h1> This is my page and stuff </h1>
-  </body>
+<html>
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Top Pot Doughnuts </title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="skeleton/css/normalize.css">
+  <link rel="stylesheet" href="skeleton/css/skeleton.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/logo.jpeg">
+
+</head>
+  <div id= 'jumbotron'>
+      <header class='row'>
+        <div class='four columns'>
+          <ul>
+            <li class= 'button'> <a href=''> Data Table </a> </li>
+            <li class= 'button'> <a href=''>Input New Location </a></li>
+          </ul>
+        </div>
+        <div class='eight columns'>
+          <ul class="u-pull-right">
+            <li class= 'button'> <a href=''> Top Pot Home</a> </li>
+            <li class= 'button'> <a href=''> Shop By Location </a></li>
+            <li class= 'button'><a href=''> About </a></li>
+          </ul>
+        </div>
+      </header>
+        <section>
+          <div class = 'row'>
+            <h1> Top Pot Donuts</h1>
+          </div>
+          <h3 class= 'row'> Projected Sales </h3>
+          <div class='row'>
+            <p class = 'three columns'></p>
+            <p class= 'six columns'> The following table should be used to estimate needs at various Top Pot locations. If your location is not listed, you may manually create one by filling out the form below. If you make a mistake or simply want to delete the most recent location data, click the 'Delete Latest Entry' button.</p>
+            <p class='three columns'> </p>
+          </div>
+      </section>
+  </div>
+<body>
+
+
+
+<div class='lookpretty'>
+<table class ='row'>
+    <thead>
+      <tr id="header">
+        <th> Locations </th>
+        <th> 7:00 AM </th>
+        <th> 8:00 AM </th>
+        <th> 9:00 AM </th>
+        <th> 10:00 AM </th>
+        <th> 11:00 AM </th>
+        <th> 12:00 PM </th>
+        <th> 1:00 PM </th>
+        <th> 2:00 PM </th>
+        <th> 3:00 PM </th>
+        <th> 4:00 PM </th>
+        <th> 5:00 PM </th>
+        <th> 6:00 PM </th>
+        <th> Total Sold </th>
+      </tr>
+    </thead>
+
+      <tbody id='tbody' class='row'>
+
+
+
+      </tbody>
+  </table>
+</div>
+  <div class= 'row'>
+    <p class= 'three columns'> </p>
+    <button class='six columns' id='deleteshop' type='click' class='button'> Delete Latest Entry </button>
+  </div>
+
+  <div class='row'>
+    <form class= 'six columns' id='formstruct'>
+      <fieldset>
+        <legend> New Location Form </legend>
+          <label for="shop">Shop Location: </label>
+          <input name="shop" type="text"> <br>
+          <label for="minCustHr">Minimum Customers Per Hour: </label>
+          <input name="minCustHr" type="text"> <br>
+          <label for="maxCustHr">Maximum Customers Per Hour: </label>
+          <input name="maxCustHr" type="text"> <br>
+          <label for="avgDonutsCust">Average Donuts Per Customer Purchased: </label>
+          <input name="avgDonutsCust" type="text"> <br>
+          <button id="createshop" type="submit" class='button'>Create New Shop</button>
+      </fieldset>
+    </form>
+    <canvas id='mychart' height='300' width='300'> </canvas>
+  </div>
+
+  <footer class='row'>
+      <author> Michael Sweeney &#169; 2015</author>
+
+  </footer>
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/1.0.2/Chart.js"></script>
+  <script src="shop.js"></script>
+</body>
 </html>
