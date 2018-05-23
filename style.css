@@ -114,6 +114,9 @@ tr:hover {
 	background-color: #A5BDC9;
 }
 
+.button {
+	background-color: #ffffff;
+}
 
 .button:hover {
 	background-color: #1E2730;
